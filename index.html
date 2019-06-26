@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Hotel Management</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="./styles.css" rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps|Lobster Two|Poiret One|Roboto Slab|Cherry Swash|' rel='stylesheet'>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+<!--
+    <style>
+        body {
+            margin-top: 100px;
+        }
+
+        .navbar-default {
+            background: #fff;
+            font-size: 20px;
+            font-family: Bilbo Swash Caps;
+            font-stretch: extra-expanded;
+
+            border: 0;
+        }
+
+        .navbar-brand {
+            color: black !important;
+            font-size: 30px;
+            font-weight: bold !important;
+            font-family: Bilbo Swash Caps;
+        }
+
+        #home p {
+            font-family: Roboto Slab;
+            font-size: 20px;
+            color: #999999;
+            text-align: center;
+        }
+
+        #home,
+        #info h1 {
+            font-family: Lobster Two;
+            text-align: center;
+            padding-top: 30px;
+            font-weight: bold;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+
+        #info {
+            margin-top: 50px;
+            background-color: #cccccc;
+            padding: 35px 0 50px 0;
+        }
+
+        #info p {
+            font-family: Poiret One;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #info .customer {
+            font-family: Lobster Two;
+        }
+
+        #rooms {
+            margin-top: 50px;
+            align-items: center;
+        }
+
+        #rooms p {
+            font-family: Roboto Slab;
+            font-size: 20px;
+            color: #999999;
+            text-align: center;
+            margin: 10px;
+        }
+
+        #info-xtnd {
+            font-family: Cherry Swash;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        #info-xtnd h1 {
+            font-family: Lobster Two;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            font-weight: bold;
+        }
+
+        #contact {
+            background-image: url("img5.jpg");
+            opacity: 50%;
+            border-top: black 5px solid;
+            border-bottom: black 5px solid;
+            padding: 20px 0 20px 0;
+            margin-top: 50px;
+            color: white;
+            font-family: Poppins;
+
+        }
+
+        .box-shape {
+            border-radius: 20px;
+
+        }
+
+        textarea {
+            height: 70px;
+            width: 250px;
+            color: black;
+        }
+
+        .navbar-border {
+            border-bottom: #ff6666 3px solid;
+        }
+
+    </style>
+-->
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-border">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Anandh Hotels </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section id="home">
+
+        <div class='container'>
+
+            <div class='row'>
+                <div class='col-sm-6 col-md-6 col-lg-6'>
+                    <div class='home-left'>
+                        <img class="rounded-img-corner" src="img1.jpg" width='550' height='250'>
+                        <br><br>
+
+                    </div>
+                </div>
+
+                <div class='col-sm-6 col-md-6 col-lg-6'>
+                    <div class='home-right'>
+                        <h1>Anandh Group of Hotels</h1><br>
+                        <p>Service is moto and quality is our motivation<br>
+                            <p style="margin-left: 310px;">- Anandh, CEO</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="info">
+
+        <div class="container">
+            <h1>Our Customer</h1>
+            <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias
+                officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!
+                Has amo accento fio bom visivel carinho. Infimos pae fiz ate tom doidice extenso influir fizesse querida. "
+            </p>
+            <p class="customer">- Sundaramoorthy</p>
+        </div>
+
+    </section>
+
+    <section id="rooms">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 img-left">
+                    <img src="img2.jpg" height="300" width="500" alt="luxury room 1">
+                    <p>Luxury Tier - 1</p>
+                    <p>&#8377;4000/ 24 Hours</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 img-right">
+                    <img src="img3.jpg" height="300" width="500" alt="luxury room 1">
+                    <p>Luxury Tier - 2</p>
+                    <p>&#8377;3000/ 24 Hours</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section id="info-xtnd">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-md-6 info-left">
+                    <h1>Luxury Tier - 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6 info-right">
+                    <h1>Luxury Tier - 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque vel diam nulla.
+                        Quisque tempus fringilla egestas. Nam dui lectus,
+                        semper luctus erat aliquam,
+                        lacinia gravida urna. Nunc et gravida arcu.
+                        Suspendisse sodales ut ipsum quis vulputate.
+                        Quisque ac viverra orci.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="contact">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                    <form class="form">
+                        <label>Name:</label><br>
+                        <input class="box-shape" type="text" placeholder="  Enter your name here" required="*" size="40px" style="padding:15px;color:black;"><br>
+
+                        <label>Email:</label><br>
+
+                        <input class="box-shape" type="email" placeholder="  Enter your email id here" required="*" size="40px" style="padding:15px;color:black;"><br>
+
+                        <label>Query:</label>
+                        <br>
+                        <textarea class="box-shape" value="" style="padding:15px;color:black;"></textarea><br>
+
+                        <button class="btn btn-default">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        window.sr = ScrollReveal();
+
+        sr.reveal('.navbar-default', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.home-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+        sr.reveal('.home-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('#info', {
+            duration: 2000,
+            origin: 'top',
+            distance: '100px'
+        });
+        sr.reveal('.img-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+        sr.reveal('.img-right', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+        sr.reveal('.info-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('.info-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('#contact', {
+            duration: 2000,
+            origin: 'bottom',
+            opacity: 0.5
+        });
+        sr.reveal('.form', {
+            duration: 2000,
+            origin: 'left',
+            distance: '100px'
+        });
+
+    </script>
+    <script src="smoothscroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+
+            speed: 2000,
+            offset: 0,
+            easing: 'easeInOutQuart'
+        });
+
+    </script>
+</body>
+
+<footer>
+    <p style="text-align: center;font-family:Nova Square;margin:20px 0 20px 0;font-size: 30px; ">All Rights Reserved &reg</p>
+</footer>
+
+</html>
